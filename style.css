@@ -1,21 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'open sans';
-}
-
-.container{
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
 .title{
     color: #ffbd59 #ff914d;
     font-size: 30px;
@@ -23,9 +5,26 @@ body{
     margin-bottom: 60px;
 }
 
-body{ background-color: aliceblue;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'concert one';
+}
+
+.container{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
 
 /* header */
+
 header{
    width: 100%;
    height: 600px;
@@ -33,9 +32,119 @@ header{
    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(34, 53%, 66%, 0.674), hsl(35, 63%, 78%));  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(34, 53%, 66%, 0.674), hsl(35, 63%, 78%)); 
+    background: linear-gradient(to right, hsla(34, 53%, 66%, 0.674), hsl(35, 63%, 78%));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
 
+nav{
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .texts-header{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texts-header h1{
+    font-size: 100px;
+    color: #ffbd59;
+}
+
+.texts-header h2{
+    font-size: 70px;
+    font-weight: 300;
+    color: #ff914d;
+}
+
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ /* About us */
+
+ .container-about-us{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .imagen-about-us{
+    width: 48%;
+}
+
+ .about-us .content-textos{
+    width: 48%;
+}
+
+ .content-textos h3{
+    margin-bottom: 15px;
+}
+
+ .content-texts h3 span{
+    background: #ffffff00;
+    color: #ffffff00;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 1px;
+    height: 1px;
+    padding: 1px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.content-texts p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Galery */
+
+.courses{
+    background: #f2f2f2;
+}
+
+.galery-cour{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image-cour{
+    width: 24px;
+    margin-bottom: 10px;
+}
+
+.image-cour > img{
+    width: 1000%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+nav{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "QuickSand";
 }

@@ -1,0 +1,35 @@
+.carrrousel{
+    width: 70%;
+    max-width: 120em;
+    background-color: whitesmoke;
+
+}
+.carrrousel .grande{
+    width: 200%;
+    background-color: white;   
+    display: flex;
+    flex-flow: row-nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carrrousel .img{
+    width: calc(100%/2);
+    background-color: sandybrown;
+}
+.carrrousel .puntos{
+    width:  100%;
+    background-color: white;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+} 
+.carrrousel .punto{
+    width: 2em;
+    height: 2em;
+    background-color: sandybrown;
+    margin: 1em;
+
+}
