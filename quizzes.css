@@ -3,7 +3,7 @@
     max-width: 120em;
     background-color: whitesmoke;
     padding: 2em;
-    @include neo( 1, 1em, 1em)
+    @include neo( 1, 1em, 1em),
 
 }
 .carrrousel .grande{
@@ -13,10 +13,12 @@
     justify-content: flex-start;
     align-items: center;
     @include neo( 1, 1em, 1em);
+    padding: 2em;
+     
 }
 .carrrousel .img{
     width: calc(100%/2);
-    background-color: sandybrown;
+    @include neo( 1, 1em, 1em)
 }
 .carrrousel .puntos{
     width:  100%;
