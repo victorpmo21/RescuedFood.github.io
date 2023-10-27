@@ -372,7 +372,7 @@ section{
 }
 
 .quizzes .box-container .box:hover{
-    background: #fff;
+    background: black;
 }
 
 .review .box-container{
