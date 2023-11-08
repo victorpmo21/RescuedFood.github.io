@@ -270,6 +270,7 @@ img {
     transform: translateX(.25rem);
 }
 
+<<<<<<< Updated upstream
 .card:nth-child(1) .course-tag {
     background-color: #f7ab15;
 }
@@ -318,6 +319,8 @@ img {
     color: #f021b2;
 }
 
+=======
+>>>>>>> Stashed changes
 /* COURSES */
 .courses-container {
     min-height: 100vh;
@@ -414,7 +417,11 @@ img {
     color: #f7ab15;
 }
 
+<<<<<<< Updated upstream
 .course-title {
+=======
+.course-title{
+>>>>>>> Stashed changes
     font-weight: var(--font-medium);
     font-size: var(--h3-font-size);
     margin-bottom: 1rem;
@@ -423,7 +430,16 @@ img {
     transition: .4s;
 }
 
+<<<<<<< Updated upstream
 .course-title:hover {
+=======
+.course-title a {
+    color: #fff;
+    transition: .4s;
+}
+
+.course-title a:hover {
+>>>>>>> Stashed changes
     color: var(--first-color);
 }
 
@@ -475,7 +491,11 @@ img {
     text-decoration: line-through;
 }
 
+<<<<<<< Updated upstream
 .course-button {
+=======
+.course-button a {
+>>>>>>> Stashed changes
     color: var(--title-color);
     font-size: var(--normal-font-size);
     display: inline-flex;
