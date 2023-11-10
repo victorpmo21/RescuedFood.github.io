@@ -761,27 +761,6 @@ img {
     margin-bottom: 30px;
 }
 
-.aboutI-img img {
-    animation: imgg 2s ease-in-out infinite;
-    animation-delay: 2s;
-}
-
-@keyframes imgg {
-
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-22px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-
-}
-
 /* BRANDS  */
 .brand-title {
     margin-top: 3rem;
@@ -911,7 +890,17 @@ img {
     transition: .4s;
 }
 
-.course-title:hover {
+.course-title a {
+    font-weight: var(--font-medium);
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: .4s;
+    color: #fff;
+}
+
+.course-title a:hover {
     color: var(--first-color);
 }
 
@@ -963,7 +952,7 @@ img {
     text-decoration: line-through;
 }
 
-.course-button {
+.course-button{
     color: var(--title-color);
     font-size: var(--normal-font-size);
     display: inline-flex;
@@ -973,7 +962,17 @@ img {
     cursor: pointer;
 }
 
-.course-button-icon {
+.course-button a {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .2rem;
+    cursor: pointer;
+}
+
+.course-button-icon{
     font-size: 1.25rem;
     transition: .4s;
 }
